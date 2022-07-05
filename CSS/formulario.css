@@ -11,13 +11,13 @@
     }
 
 #container {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
     border: solid #e5d8c5;
     margin-top: 15%;
     background-image: linear-gradient(to right, #e5d8c5, #b6c2aa);
     border-radius: 10px;
-    margin-bottom: 100px  
+    margin-bottom: 100px ;
   }  
   #titulo { /*Usei para configurar o titulo*/
       text-align: center;

@@ -33,13 +33,14 @@ body {
     margin-top: 50px;
     margin-bottom: 400px;
     margin-left:475px;
-    margin-right:60px;
+    margin-right:220px;
     font-size: 30px;
     padding: 20px;
     opacity: 0.8;
     border-radius: 10px;
     background: #98a794;
     color: #32293c; 
+
  }
  .btnsobre { /*usei para configurar o botao "sobre nos"*/
 margin-left: 200px;
@@ -242,9 +243,10 @@ background-color: #485158;
     .psobre { /*usei para configurar o paragrafo*/
         padding-left: 20px;
         font-size: 30px;   
-        margin-left: 25px;
+        margin-left: 15px;
         margin-top: 80px;
         text-align: center;
+        margin-right:10px ;
     }
     .btnsobre { /*usei para configurar o botão*/
         padding-left: 10px;

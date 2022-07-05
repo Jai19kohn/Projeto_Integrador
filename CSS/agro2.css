@@ -19,11 +19,13 @@ body{
     margin: 70px;
     padding: 70px;
     padding-right: 100px;
+    padding-bottom: 100px;
 }
 .imgs{
     float: left;
-    margin: 100px;
-    margin-left: 50px;
+   
+    margin-top: 10px;
+    margin-right: 50px;
     height: 225px;
     width: 340px;
     border-radius: 10px;
