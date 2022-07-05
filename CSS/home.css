@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:  #e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+/*==================================inico do sobre nos*/
+ .sobrenos { /*usei para configurar a seção sobre nos*/
+    background-image: url('fundo1.jpg');
+    background-position: center ;
+    background-size: cover;
+    float: left;
+    padding: 50px;
+    background-color:#e5d8c5;
+    width: 100%;  
+    min-height: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }
+ .titlesobre {  /*usei para configur o titulo do sobre nos*/
+    margin-left: 400px;
+    font-size: 100px;
+ }
+ .psobre { /*usei para configurar o paragrafo do sobre nos*/
+    margin-top: 50px;
+    margin-bottom: 400px;
+    margin-left:475px;
+    margin-right:60px;
+    font-size: 30px;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 10px;
+    background: #98a794;
+    color: #32293c; 
+ }
+ .btnsobre { /*usei para configurar o botao "sobre nos"*/
+margin-left: 200px;
+color: #b6c2aa;
+padding: 10px;
+border-radius: 10px;
+background-color: #485158;
+ }
+ .btnsobre:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: #32293c;
+    background: #b6c2aa;
+    border-radius: 10px;
+    padding: 3%;
+    opacity: 1;
+ }
+/*==================================fim do sobre nos*/
+
+/*==================================inico do que os pesticidas causam*/
+.oqpesticidas { /*usei para configurar a seção "oq pesticidas causam"*/
+    float: left;
+    padding: 50px;
+    background-color: #e5d8c5;
+    color: #270f27;
+ -moz-transition: all 0.9s;
+ -webkit-transition: all 0.9s;
+ transition: all 0.9s;
+ }
+.oqpesticidas:hover {
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    box-shadow: 0 0 2em #270f27;
+    border-radius: 20px;
+ }
+.imgoqpesticidas { /*usei para configurar a img da seção "oq pesticidas causam"*/
+    float: right;
+    width: 480px ;
+    height: 275px;
+    margin: 50px;
+    border-radius: 20px ;  
+}
+.titleoqpesticidas {
+    font-size: 50px;
+}
+.ppesticidas {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.btnsaiba { /*usei para configurar o botao "saiba ma"*/
+    margin: 100px;
+    margin-top: 200px;
+    color: #b6c2aa;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #485158;
+     }
+.btnsaiba:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: #32293c;
+    background: #b6c2aa;
+    border-radius: 10px;
+    padding: 3%;
+}
+/*==================================fim do que os pesticidas causam */
+
+/*==================================inico da importancia dos adubos organicos */
+
+.impadubos { /*usei para configurar a seção "importancia dos adubos orgânicos"*/
+    float: left;
+    padding: 50px;
+    background-color:#7e5950 ;
+    font-size: 30px;
+    color: #270f27;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+ }
+ .impadubos:hover { 
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    border-radius: 20px;
+    margin-left: -5px;
+    margin-right: 5px;
+    box-shadow: 0 0 2em #270f27;
+ }
+ .titleimpadubos{
+    
+    margin-bottom: 30px;
+ }
+.imgimpadubos { /*usei para configurar a img da seção "importancia dos adubos orgânicos"*/
+    float: left;
+    width: 305px ;
+    height:220px ;
+    margin: 50px;
+    border-radius: 20px;
+}
+.textimpadubos {
+    margin-bottom: 50px;
+}    
+/*==================================fim da importancia dos adubos organicos */
+
+/*==================================inicio dos cards*/
+
+.imgc { /*configura a imagem do 1 card*/
+    width: 250px;
+    height: 190px;
+}
+.cards.grid{ /*usado para colocar os cards um ao lado do outro*/
+    gap: 2rem;  
+    display: flex;
+    margin: 100px;
+}
+.cards .container{
+    margin: 0 auto;
+}
+.card{
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #927160 ;
+    color: #270f27;
+    text-align: center;
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;   
+}
+.card:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.card .title{ /*usei para configurar o titulo dos cards*/
+    font-size: 1.5rem;  
+    text-align: center; 
+}
+/*===========================================fim dos cards*/
+
+/*========================================== inicio dos parceiros*/
+.parceirostotal { /*usado para configurar a area de parceiros*/
+    background-color:#485158;
+    color: #b6c2aa;
+    padding: 100px;
+    padding-left: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+    display: flex;
+    margin: 20px;
+    margin-top: 70px;
+}
+.parceiroIOS {
+    width:336px;
+    height:240px;
+    margin: 20px;
+    margin-top: -20px;
+}
+.parceiroCENSU {
+    width:150px;
+    height: 150px;
+    margin: 20px;
+}
+.TOTVS {
+    width:340px; 
+    height: 100px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.TOTVS, .parceiroCENSU, .parceiroIOS {
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+}
+.TOTVS:hover,.parceiroCENSU:hover,.parceiroIOS:hover {
+       -moz-transform: scale(1.1);
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+   }
+/*=======================================fim dos parceiros*/
+
+
+
+/*=======================================media query*/
+
+
+   @media(max-width:768px) {
+/*===============================================inicio do sobre nos*/
+
+    .titlesobre { /*usei para configurar o titulo*/
+        padding-left: 100px;
+        font-size: 50px;   
+        margin-left: -20px;
+    }
+    .psobre { /*usei para configurar o paragrafo*/
+        padding-left: 20px;
+        font-size: 30px;   
+        margin-left: 25px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .btnsobre { /*usei para configurar o botão*/
+        padding-left: 10px;
+        font-size: 30px;  
+        margin-left: 10px; 
+     
+    }
+    /*===============================================fim do sobre nos*/
+
+
+    /*==================================inico do "o que os peticidas causam"*/
+    .oqpesticidas{
+        margin-left: 0px;
+        margin-right: 0px;   
+        padding-right: 0px;
+    }
+    .imgoqpesticidas {  /*usei para configurar a imagem*/
+        margin-left: -10px;
+        margin-right: 30px;
+        width: 400px ;
+        height: 275px;
+    }
+    .titleoqpesticidas {  /*usei para configurar  o titulo*/
+        padding-top: 390px;
+        margin-left: 30px;
+        margin-right: 40px;
+    }
+
+    .ppesticidas {  /*usei para configurar o paragrafo*/
+        margin-left: 30px;
+    }
+/*=================================fim do "o que os peticidas causam"*/
+
+
+
+
+/*==================================inico da importancia dos adubos organicos*/
+    .impadubos{
+        margin-left: -20px;   
+        padding-right: 20px;
+    }
+    .titleimpadubos {  /*usei para configurar o titulo*/
+      margin-left: 30px;
+      margin-right: 40px;
+    }
+
+    .textimpadubos {  /*usei para configurar o texto*/
+        margin-left: 30px;
+    }
+    .imgimpadubos {  /*usei para configurar a imagem*/
+        margin-left: 15px;
+        margin-right: 30px;
+        width: 400px ;
+        height: 275px;
+    }
+
+    .impadubos:hover { 
+        margin-left: 0px;
+        margin-right: 5px;
+        padding-left: 20px;
+     }
+
+
+   /*==================================fim da importancia dos adubos organicos*/
+
+
+   /*===============================================inicio dos cards*/
+
+    .cards { /*usei para colocar os cards um em baixo do outro*/
+        flex-direction:column;  
+        margin: 0px;
+        padding: 0px;  
+    }
+    .imgc{  /*usei para configurar a imagem*/
+        margin-left: -37px;
+    }
+   /*===============================================fim dos cards*/
+
+
+   /*===============================================inicio dos  parceiros*/
+  
+    .patrocinio{ /*usei para configurar os patrocinadores um em baixo do outro*/
+       flex-direction: column;  
+    }
+    .parceirostotal {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left:20px ;
+    padding-right:20px ;
+    }
+    .parceiros { /*usei para configurar a imagem dos parceiros*/
+        margin-left: -10px;   
+    }
+    /*===============================================fim dos  parceiros*/
+
+
+   } 
+
+   
+    /*================================================fim do media query*/
+
+

@@ -1,0 +1,109 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#e5d8c5  ;
+    font-family: Arial, Helvetica, sans-serif;     
+    font-size: 20px;
+    margin: 0px;
+    color: #270f27;
+}
+.adubo-organico {
+    display: flexbox;
+    margin: 100px;
+    padding: 50px;
+}
+.imgs1 {
+    width:375px; 
+    height:250px; 
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
+    float: left;
+}
+.pqmudar {
+    margin: 100px;
+    padding: 100px;
+    background:#748e81;  
+    color:#32293c;
+    border-radius: 10px;
+}
+.imgs2 {
+    width:384px; 
+    height:256px;
+    margin: 50px;
+    border-radius: 10px; 
+    float:right;
+}
+.biopesticidas {
+    display: flexbox;
+    margin: 100px;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+.imgs3 {
+    width: 385px;
+    height: 256px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
+    float: left;
+}
+.vantagens {
+    margin-top: 150px;
+    margin: 100px;
+    padding: 100px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background: #7e5950;
+    color: #270f27;
+}
+.titulovanta {
+    text-align: center;
+    margin: 50px;
+}
+
+
+/*===========================media query*/
+@media(max-width:768px) {
+  
+    .h2ad{ /*usei para configuarar  o h2 do adubos organicos */
+        margin-left:-20px;
+    }
+    .h2bio {/*usei para configurar o h2 do biopesticidas */
+        margin-left: -40px;
+    }
+    .h2pq { /*usei para configurar o h2 do porque mudar*/
+        margin-left: 30px;
+    }
+   
+    .imgs1 {/*usei para configurar a 1  imagem*/
+         margin-left: -80px;
+         margin-right: 20px;
+         margin-bottom: 30px;
+    }
+    .imgs2 { /*usei para configuarar a 2 imagem */
+        margin-right:-65px;
+    }
+    .imgs3 { /*usei para configuarar a 3 imagem */
+        margin-left: -80px;
+        margin-bottom: 30px;
+    }
+    .pqmudar {
+        margin: 20px;
+    }
+    .vantagens {
+        margin: 20px;
+    }
+    .titulovanta {
+        margin-left: -10px;
+    }
+    .ul1 { /*usei para configuarar os itens da lista */
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+}

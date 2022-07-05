@@ -1,0 +1,78 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.divs{
+    display: flexbox;
+    border-radius: 10px;
+    background:#b6c2aa;
+    margin: 70px;
+    padding: 70px;
+    padding-right: 100px;
+}
+.imgs{
+    float: left;
+    margin: 100px;
+    margin-left: 50px;
+    height: 225px;
+    width: 340px;
+    border-radius: 10px;
+}
+.divs h1 {
+    text-align: center;
+}
+.agua {
+    display: flexbox;
+    background:#b6c2aa;
+    margin: 70px;
+    padding: 100px;
+    border-radius: 10px;
+}
+.parte2 {
+    background:#b6c2aa;
+    margin: 70px;
+    padding: 100px;
+    border-radius: 10px;
+}
+/*=======================================media query*/
+
+@media(max-width:768px) {
+    .imgs {/*usei para configurar as imagens  */
+         margin-left: -20px;
+         margin-top: 10px;
+    }
+    h1 { /*usei para configurar o h1 de "voce sabe quais venenos" e das abelhas */
+        margin-left: 50px ;
+    }
+    p{ /*usei para configuarar os   paragrafos */
+        margin-left: 70px;     
+    }
+    .price-box { /*usei para configuarar o paragrafo de "um coquetel" */
+        margin-left: 10px;
+    }
+    .lado { /*usei para configuarar o paragrafo "de acordo com os engenheiros" */
+        margin-left: 10px;
+    }
+
+    .divs{
+        margin: 20px;
+    }
+
+    .agua {
+        margin: 20px;
+    }
+
+    .parte2 {
+        margin:20px
+    }
+}
