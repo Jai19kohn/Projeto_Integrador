@@ -1,0 +1,110 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: #270f27;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #485158;
+  }
+  
+  body {
+    background-image: url('./oi.jpg');
+    background-size: cover;
+    background-position-y: -150px;
+    border: none;
+  }
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #e5d8c5;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    background-color: #e5d8c5;
+  }
+  
+  input:focus {
+    border-color: #485158;
+  }
+  
+  input[type="submit"] {
+    background-color: #485158;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }

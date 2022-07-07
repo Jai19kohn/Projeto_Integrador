@@ -26,14 +26,14 @@ body {
     background-repeat: no-repeat;
  }
  .titlesobre {  /*usei para configur o titulo do sobre nos*/
-    margin-left: 400px;
+    margin-left: 450px;
     font-size: 100px;
  }
  .psobre { /*usei para configurar o paragrafo do sobre nos*/
     margin-top: 50px;
     margin-bottom: 400px;
-    margin-left:475px;
-    margin-right:220px;
+    margin-left:450px;
+    margin-right:75px;
     font-size: 30px;
     padding: 20px;
     opacity: 0.8;
@@ -160,6 +160,19 @@ background-color: #485158;
     margin: 0 auto;
 }
 .card{
+    padding: 5rem 3rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #927160 ;
+    color: #270f27;
+    text-align: center;
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;   
+}
+
+.cardfora{
     padding: 5rem 2rem;
     box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
     border-bottom: 0.25rem solid ;
@@ -171,7 +184,7 @@ background-color: #485158;
 	-webkit-transition: all 0.9s;
 	transition: all 0.9s;   
 }
-.card:hover {
+.card:hover, .cardfora:hover {
     -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -188,7 +201,7 @@ background-color: #485158;
     background-color:#485158;
     color: #b6c2aa;
     padding: 100px;
-    padding-left: 150px;
+    padding-left: 175px;
     text-align: center;
     font-size: 30px;
 }
@@ -205,9 +218,10 @@ background-color: #485158;
     margin-top: -20px;
 }
 .parceiroCENSU {
-    width:150px;
-    height: 150px;
+    width: 150px;
+    height: 170px;
     margin: 20px;
+    border-radius: 10px;
 }
 .TOTVS {
     width:340px; 
@@ -232,120 +246,119 @@ background-color: #485158;
 /*=======================================media query*/
 
 
-   @media(max-width:768px) {
-/*===============================================inicio do sobre nos*/
-
-    .titlesobre { /*usei para configurar o titulo*/
-        padding-left: 100px;
-        font-size: 50px;   
-        margin-left: -20px;
+@media(max-width:1600px) {
+    body {
+    background-color: #e5d8c5;
     }
-    .psobre { /*usei para configurar o paragrafo*/
-        padding-left: 20px;
-        font-size: 30px;   
-        margin-left: 15px;
-        margin-top: 80px;
-        text-align: center;
-        margin-right:10px ;
-    }
-    .btnsobre { /*usei para configurar o botão*/
-        padding-left: 10px;
-        font-size: 30px;  
-        margin-left: 10px; 
-     
-    }
-    /*===============================================fim do sobre nos*/
+   }
 
 
-    /*==================================inico do "o que os peticidas causam"*/
-    .oqpesticidas{
-        margin-left: 0px;
-        margin-right: 0px;   
-        padding-right: 0px;
-    }
-    .imgoqpesticidas {  /*usei para configurar a imagem*/
-        margin-left: -10px;
-        margin-right: 30px;
-        width: 400px ;
-        height: 275px;
-    }
-    .titleoqpesticidas {  /*usei para configurar  o titulo*/
-        padding-top: 390px;
-        margin-left: 30px;
-        margin-right: 40px;
+   @media(max-width:980px) {
+    body {
+    background-color: #e5d8c5;
     }
 
-    .ppesticidas {  /*usei para configurar o paragrafo*/
-        margin-left: 30px;
+    nav {
+        flex-direction:column-reverse;
+        display: flex;
+        margin-left: 0%;
+        margin-right: -2%;
+      
+        
     }
-/*=================================fim do "o que os peticidas causam"*/
+.emcima {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.login{
+    margin-top: -250px;
+}
+.titulo-nav {
+    margin-left: 10px;
+    margin-top: -10px;
+}
 
 
 
 
-/*==================================inico da importancia dos adubos organicos*/
-    .impadubos{
-        margin-left: -20px;   
-        padding-right: 20px;
+
+    .sobrenos {
+        margin-left: 1%;
+        margin-right: 0%;
+
     }
-    .titleimpadubos {  /*usei para configurar o titulo*/
-      margin-left: 30px;
-      margin-right: 40px;
+    
+    .oqpesticidas {
+        margin-left: 1%;
+        margin-right: 10%;
+        padding-right:350px;
     }
 
-    .textimpadubos {  /*usei para configurar o texto*/
-        margin-left: 30px;
+    .impadubos {
+        margin-left:1% ;
+        margin-right: -1%;
+        padding-right: 500px;
     }
-    .imgimpadubos {  /*usei para configurar a imagem*/
-        margin-left: 15px;
-        margin-right: 30px;
-        width: 400px ;
-        height: 275px;
-    }
-
-    .impadubos:hover { 
-        margin-left: 0px;
-        margin-right: 5px;
-        padding-left: 20px;
-     }
-
-
-   /*==================================fim da importancia dos adubos organicos*/
-
-
-   /*===============================================inicio dos cards*/
-
-    .cards { /*usei para colocar os cards um em baixo do outro*/
+    .cards {
         flex-direction:column;  
-        margin: 0px;
-        padding: 0px;  
+        margin-left: 10%;
+        margin-right: 2%;
+        padding-right: 10px;
+        padding-left: 100px;
+        
     }
-    .imgc{  /*usei para configurar a imagem*/
-        margin-left: -37px;
-    }
-   /*===============================================fim dos cards*/
 
-
-   /*===============================================inicio dos  parceiros*/
-  
-    .patrocinio{ /*usei para configurar os patrocinadores um em baixo do outro*/
-       flex-direction: column;  
-    }
     .parceirostotal {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left:20px ;
-    padding-right:20px ;
+        margin-left: 1%;
+        margin-right: -1%;
+        padding-right: 800px;
     }
-    .parceiros { /*usei para configurar a imagem dos parceiros*/
-        margin-left: -10px;   
-    }
-    /*===============================================fim dos  parceiros*/
-
-
-   } 
-
    
-    /*================================================fim do media query*/
+    .patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+        flex-direction: column;  
+        display: flex;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .parceiroIOS {
+        width:340px;
+        height:250px;
+        margin-left: 100px;
+       
+    }
+    .parceiroCENSU {
+        width:340px;
+        height: 250px;
+        margin-left: 100px;
+    }
+    .TOTVS {
+        width:500px; 
+        height: 250px;
+        margin-left: 10px;
+    }
+    
 
+    .displayfooter {
+        flex-direction:column;    
+        padding-right: 500px;
+    }
+    .redesss{
+        padding-left: 60px;   
+    }
+    .footerlinkedin{
+        padding-right: 100px; 
+        padding-right: 10px;   
+    }
+    .copy {
+        margin-top: 20px;
+    }
+   .imgfooter {
+    margin-bottom: 5px;
+   }
 
+   footer {
+    margin-left:1% ;
+    margin-right: -1%;
+   }
+
+   }

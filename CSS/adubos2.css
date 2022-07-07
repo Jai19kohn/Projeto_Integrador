@@ -49,6 +49,8 @@ body {
     height: 256px;
     border-radius: 10px;
     margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
     float: left;
 }
